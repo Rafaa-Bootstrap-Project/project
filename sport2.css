@@ -1,0 +1,116 @@
+body{
+    background-image: url("https://img.freepik.com/premium-photo/close-up-boxing-gloves-basketball-football-tennis-golf-balls-discus_107420-15702.jpg?w=360");
+height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.title{
+    color: whitesmoke;
+    margin: 50px;
+    text-align: center;
+    font-size: 50px;
+    
+    
+
+}
+
+h2{
+text-align: center;
+}
+
+.sss{
+   width: 250px;
+   height: 460px;
+
+  
+}
+
+
+
+
+
+.all-Sports{
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+
+}
+
+
+.all-Sports img:hover {
+ 
+    transform: scale(1.1); 
+}
+
+button{
+  
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    position: relative;
+
+}
+
+#getBack{
+  
+    background-color: #b6b9b6;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+
+}
+
+.image-container{
+    display: flex;
+    flex-direction: column;
+    
+}
+.inputs{
+display: flex;
+flex-direction: column;
+}
+#getBack {
+    position: fixed;
+    bottom: 10px;  
+    left: 10px;    
+    font-size: 30px;  /* Smaller font size */
+    padding: 5px 10px;  /* Adjust padding for the desired size */
+    background-color: #0015ff; /* Optional: add background color */
+    color: white; 
+    border: none; 
+    border-radius: 5px; 
+}
+
+.sort{
+    /* display: none; */
+    background-color: rgb(113, 142, 26);
+}
+
+#xx0{
+    width: 10px;
+    padding-inline-start: 5%;
+    margin: 0px;
+    background-color: red;
+}
+#xx1{
+    width: 10px;
+    padding-inline-start: 5%;
+    margin: 0px;
+    background-color: red;
+}
+#xx2{
+    width: 10px;
+    padding-inline-start: 5%;
+    margin: 0px;
+    background-color: red;
+}
+
+P{
+    font-size: 25px;
+    color:rgb(39, 135, 64)
+}
